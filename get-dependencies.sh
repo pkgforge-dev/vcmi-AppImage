@@ -22,7 +22,7 @@ pacman -Syu --noconfirm   \
 	zsync                 \
     boost-libs            \
 #    desktop-file-utils    \
-    ffmpeg                \
+    ffmpeg-git            \
 #    gtk-update-icon-cache \
     hicolor-icon-theme    \
 #    libxkbcommon-x11      \
