@@ -17,6 +17,7 @@ pacman -Syu --noconfirm \
 	libxss            \
 	pulseaudio        \
 	pulseaudio-alsa   \
+	qt5-base		  \
 	wget              \
 	xorg-server-xvfb  \
 	zsync
