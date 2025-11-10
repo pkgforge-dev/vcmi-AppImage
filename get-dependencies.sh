@@ -21,7 +21,6 @@ pacman -Syu --noconfirm   \
 	xorg-server-xvfb      \
 	zsync                 \
     boost-libs            \
-    ffmpeg                \
     hicolor-icon-theme    \
     luajit                \
     sdl2_image            \
@@ -29,6 +28,7 @@ pacman -Syu --noconfirm   \
     sdl2_ttf              \
     tbb                   
 
+#    ffmpeg                \
 #    libxkbcommon-x11      \
 #    gtk-update-icon-cache \
 #    desktop-file-utils    \
