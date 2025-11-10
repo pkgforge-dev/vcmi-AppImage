@@ -7,37 +7,23 @@ PACKAGE_BUILDER="https://raw.githubusercontent.com/pkgforge-dev/Anylinux-AppImag
 
 echo "Installing build dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm   \
-	base-devel            \
-	curl                  \
-	git                   \
-	libx11                \
-	libxrandr             \
-	libxss                \
-	pulseaudio            \
-	pulseaudio-alsa       \
-	qt6-base		      \
-	wget                  \
-	xorg-server-xvfb      \
-	zsync                 \
-    boost                 \
-#    hicolor-icon-theme    \
-#    luajit                \
-#    sdl2_image            \
-#    sdl2_mixer            \ 
-#    sdl2_ttf              \
-#    tbb                   
-
-#    ffmpeg                \
-#    libxkbcommon-x11      \
-#    gtk-update-icon-cache \
-#    desktop-file-utils    \
-#    boost                 \
-#    cmake                 \
-#    qt5-tools             \
-#    innoextract           \
-#    unshield              \
-#    unzip 
+pacman -Syu --noconfirm \
+	base-devel          \
+	boost				\
+	cmake				\
+	curl                \
+	git                 \
+	libx11              \
+	libxrandr           \
+	libxss              \
+	minizip				\
+	ninja				\
+	pulseaudio          \
+	pulseaudio-alsa     \
+	qt6-tools		    \
+	wget                \
+	xorg-server-xvfb    \
+	zsync               \
 
 	
 
