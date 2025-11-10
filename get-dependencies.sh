@@ -27,7 +27,6 @@ pacman -Syu --noconfirm   \
     hicolor-icon-theme    \
     libxkbcommon-x11      \
     luajit                \
-    qt5-base              \
     sdl2_image            \
     sdl2_mixer            \ 
     sdl2_ttf              \
