@@ -21,16 +21,17 @@ pacman -Syu --noconfirm   \
 	xorg-server-xvfb      \
 	zsync                 \
     boost-libs            \
-#    desktop-file-utils    \
-    ffmpeg-git            \
-#    gtk-update-icon-cache \
+    ffmpeg                \
     hicolor-icon-theme    \
-#    libxkbcommon-x11      \
     luajit                \
     sdl2_image            \
     sdl2_mixer            \ 
     sdl2_ttf              \
-    tbb                   \
+    tbb                   
+
+#    libxkbcommon-x11      \
+#    gtk-update-icon-cache \
+#    desktop-file-utils    \
 #    boost                 \
 #    cmake                 \
 #    qt5-tools             \
