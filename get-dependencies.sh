@@ -12,7 +12,6 @@ pacman -Syu --noconfirm \
 	curl              \
 	git               \
 	libx11            \
-	libwayland		  \
 	libxrandr         \
 	libxss            \
 	pulseaudio        \
@@ -20,6 +19,7 @@ pacman -Syu --noconfirm \
 	qt5-base		  \
 	wget              \
 	xorg-server-xvfb  \
+	wayland           \
 	zsync
 
 echo "Installing debloated packages..."
