@@ -20,7 +20,7 @@ pacman -Syu --noconfirm   \
 	wget                  \
 	xorg-server-xvfb      \
 	zsync                 \
-    boost-libs            \
+#    boost-libs            \
     hicolor-icon-theme    \
     luajit                \
     sdl2_image            \
