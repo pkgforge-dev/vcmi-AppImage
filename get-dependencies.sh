@@ -20,23 +20,23 @@ pacman -Syu --noconfirm   \
 	wget                  \
 	xorg-server-xvfb      \
 	zsync                 \
-    boost-libs            \
-    desktop-file-utils    \
-    ffmpeg                \
-    gtk-update-icon-cache \
-    hicolor-icon-theme    \
-    libxkbcommon-x11      \
-    luajit                \
-    sdl2_image            \
-    sdl2_mixer            \ 
-    sdl2_ttf              \
-    tbb                   \
-    boost                 \
-    cmake                 \
-    qt5-tools             \
-    innoextract           \
-    unshield              \
-    unzip 
+#    boost-libs            \
+#    desktop-file-utils    \
+#    ffmpeg                \
+#    gtk-update-icon-cache \
+#    hicolor-icon-theme    \
+#    libxkbcommon-x11      \
+#    luajit                \
+#    sdl2_image            \
+#    sdl2_mixer            \ 
+#    sdl2_ttf              \
+#    tbb                   \
+#    boost                 \
+#    cmake                 \
+#    qt5-tools             \
+#    innoextract           \
+#    unshield              \
+#    unzip 
 
 	
 
