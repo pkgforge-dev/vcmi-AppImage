@@ -20,13 +20,13 @@ pacman -Syu --noconfirm   \
 	wget                  \
 	xorg-server-xvfb      \
 	zsync                 \
-#    boost-libs            \
-    hicolor-icon-theme    \
-    luajit                \
-    sdl2_image            \
-    sdl2_mixer            \ 
-    sdl2_ttf              \
-    tbb                   
+    boost                 \
+#    hicolor-icon-theme    \
+#    luajit                \
+#    sdl2_image            \
+#    sdl2_mixer            \ 
+#    sdl2_ttf              \
+#    tbb                   
 
 #    ffmpeg                \
 #    libxkbcommon-x11      \
