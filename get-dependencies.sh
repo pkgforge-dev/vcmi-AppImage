@@ -8,11 +8,11 @@ PACKAGE_BUILDER="https://raw.githubusercontent.com/pkgforge-dev/Anylinux-AppImag
 echo "Installing build dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-	android-tools     \
 	base-devel        \
 	curl              \
 	git               \
 	libx11            \
+	libwayland		  \
 	libxrandr         \
 	libxss            \
 	pulseaudio        \
