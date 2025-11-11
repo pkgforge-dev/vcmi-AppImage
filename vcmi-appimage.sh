@@ -15,15 +15,15 @@ SHARUN="https://raw.githubusercontent.com/pkgforge-dev/Anylinux-AppImages/refs/h
 URUNTIME="https://raw.githubusercontent.com/pkgforge-dev/Anylinux-AppImages/refs/heads/main/useful-tools/uruntime2appimage.sh"
 
 # Copy shipped libraries
-mkdir -p ./AppDir/lib/
-cp -r ./vcmi/usr/lib/x86_64-linux-gnu/vcmi/*.so ./AppDir/lib/
-cp -r ./vcmi/usr/lib/x86_64-linux-gnu/vcmi/AI/*.so ./AppDir/lib/
+#mkdir -p ./AppDir/lib/
+#cp -r ./vcmi/usr/lib/x86_64-linux-gnu/vcmi/*.so ./AppDir/lib/
+#cp -r ./vcmi/usr/lib/x86_64-linux-gnu/vcmi/AI/*.so ./AppDir/lib/
 
 # ADD LIBRARIES
 
 #Copy needed data
-mkdir -p ./AppDir/share/vcmi
-cp -r ./vcmi/usr/share/vcmi/* ./AppDir/share/vcmi/
+#mkdir -p ./AppDir/share/vcmi
+#cp -r ./vcmi/usr/share/vcmi/* ./AppDir/share/vcmi/
 
 #Download and run quick-sharun
 curl -o ./quick-sharun "$SHARUN"
