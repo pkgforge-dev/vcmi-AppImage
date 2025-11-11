@@ -26,8 +26,6 @@ pacman -Syu --noconfirm \
 	xorg-server-xvfb    \
 	zsync               \
 
-	
-
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 wget --retry-connrefused --tries=30 "$EXTRA_PACKAGES" -O ./get-debloated-pkgs.sh
@@ -40,8 +38,4 @@ wget --retry-connrefused --tries=30 "$PACKAGE_BUILDER" -O ./make-aur-package.sh
 chmod +x ./make-aur-package.sh
 ./make-aur-package.sh --chaotic-aur vcmi
 
-
-
 pacman -Q vcmi | awk '{print $2; exit}' > ~/version
-
-tree .
