@@ -37,6 +37,6 @@ echo "Building vcmi..."
 echo "---------------------------------------------------------------"
 wget --retry-connrefused --tries=30 "$PACKAGE_BUILDER" -O ./make-aur-package.sh
 chmod +x ./make-aur-package.sh
-./make-aur-package.sh vcmi
+./make-aur-package.sh --chaotic-aur vcmi
 
 pacman -Q vcmi | awk '{print $2; exit}' > ~/version
