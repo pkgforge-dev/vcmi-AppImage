@@ -27,6 +27,7 @@ URUNTIME="https://raw.githubusercontent.com/pkgforge-dev/Anylinux-AppImages/refs
 #mkdir -p ./AppDir/share/vcmi
 #cp -r ./vcmi/usr/share/vcmi/* ./AppDir/share/vcmi/
 
+tree .
 #Download and run quick-sharun
 curl -o ./quick-sharun "$SHARUN"
 chmod +x ./quick-sharun
