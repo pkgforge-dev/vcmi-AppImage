@@ -31,7 +31,7 @@ tree .
 #Download and run quick-sharun
 curl -o ./quick-sharun "$SHARUN"
 chmod +x ./quick-sharun
-./quick-sharun ./vcmi/usr/games/* #./vcmi/usr/share/libs/vcmi/* ./vcmi/usr/share/libs/vcmi/AI*
+./quick-sharun /ust/bin/vcmi #./vcmi/usr/share/libs/vcmi/* ./vcmi/usr/share/libs/vcmi/AI*
 
 
 # turn appdir into appimage
