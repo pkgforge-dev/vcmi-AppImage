@@ -28,8 +28,8 @@ jobs:
       - name: Get dependencies
         run: chmod +x ./get-dependencies.sh && ./get-dependencies.sh
 
-#      - name: Make AppImage
-#        run: chmod +x ./*-appimage.sh && ./*-appimage.sh
+      - name: Make AppImage
+        run: chmod +x ./*-appimage.sh && ./*-appimage.sh
 
 #      - name: Upload artifact
 #        uses: actions/upload-artifact@v4.6.2
