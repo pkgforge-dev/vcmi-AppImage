@@ -6,11 +6,13 @@ VERSION="$(cat ~/version)"
 
 #export ADD_HOOKS="self-updater.bg.hook"
 export OUTNAME=vcmi-"$VERSION"-musl-"$ARCH".AppImage
-export DESKTOP=./vcmi/usr/share/applications/vcmiclient.desktop
-export ICON=./vcmi/usr/share/icons/hicolor/scalable/apps/vcmiclient.svg
-export URUNTIME_PRELOAD=1
+#export DESKTOP=./vcmi/usr/share/applications/vcmiclient.desktop
+#export ICON=./vcmi/usr/share/icons/hicolor/scalable/apps/vcmiclient.svg
+#export URUNTIME_PRELOAD=1
 
-VERSION="$(cat ~/version)"
+export DESKTOP=DUMMY
+export ICON=DUMMY
+
 SHARUN="https://raw.githubusercontent.com/pkgforge-dev/Anylinux-AppImages/refs/heads/main/useful-tools/quick-sharun.sh"
 URUNTIME="https://raw.githubusercontent.com/pkgforge-dev/Anylinux-AppImages/refs/heads/main/useful-tools/uruntime2appimage.sh"
 
