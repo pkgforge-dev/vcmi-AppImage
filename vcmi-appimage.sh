@@ -15,7 +15,11 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/vcmiclient.svg
 
 # app is hardcoded in multiple places
 export PATH_MAPPING='
-	/usr/bin/vcmi*:${SHARUN_DIR}/bin/vcmi*
+	/usr/bin/vcmibuilder:${SHARUN_DIR}/bin/vcmibuilder
+	/usr/bin/vcmiclient:${SHARUN_DIR}/bin/vcmiclient
+	/usr/bin/vcmieditor:${SHARUN_DIR}/bin/vcmieditor
+	/usr/bin/vcmilauncher:${SHARUN_DIR}/bin/vcmilauncher
+	/usr/bin/vcmiserver:${SHARUN_DIR}/bin/vcmiserver
 	/usr/lib/vcmi:${SHARUN_DIR}/lib/vcmi
 '
 
