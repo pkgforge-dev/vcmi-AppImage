@@ -8,7 +8,7 @@ SHARUN="https://raw.githubusercontent.com/pkgforge-dev/Anylinux-AppImages/refs/h
 URUNTIME="https://raw.githubusercontent.com/pkgforge-dev/Anylinux-AppImages/refs/heads/main/useful-tools/uruntime2appimage.sh"
 
 export ADD_HOOKS="self-updater.bg.hook"
-export OUTPU_APPIMAGE=1
+export OUTPUT_APPIMAGE=1
 export OUTNAME=vcmi-"$VERSION"-"$ARCH".AppImage
 export DESKTOP=/usr/share/applications/vcmiclient.desktop
 export ICON=/usr/share/icons/hicolor/scalable/apps/vcmiclient.svg
