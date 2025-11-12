@@ -16,7 +16,7 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/vcmiclient.svg
 #Download and run quick-sharun
 curl -o ./quick-sharun "$SHARUN"
 chmod +x ./quick-sharun
-./quick-sharun /ust/bin/vcmi
+./quick-sharun /ust/bin/vcmi*
 
 mkdir -p ./dist
 mv -v ./*.AppImage* ./dist
