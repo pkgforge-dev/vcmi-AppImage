@@ -13,10 +13,19 @@ export OUTNAME=vcmi-"$VERSION"-"$ARCH".AppImage
 export DESKTOP=/usr/share/applications/vcmiclient.desktop
 export ICON=/usr/share/icons/hicolor/scalable/apps/vcmiclient.svg
 
+# app is hardcoded in multiple places
+export PATH_MAPPING='
+	/usr/bin/vcmi*:${SHARUN_DIR}/bin/vcmi*
+	/usr/lib/vcmi:${SHARUN_DIR}/lib/vcmi
+'
+
 #Download and run quick-sharun
 curl -o ./quick-sharun "$SHARUN"
 chmod +x ./quick-sharun
-./quick-sharun /usr/bin/vcmi*
+./quick-sharun \
+	/usr/bin/vcmi*  \
+	/usr/lib/vcmi/* \
+	/usr/lib/vcmi/*/*
 
 mkdir -p ./dist
 mv -v ./*.AppImage* ./dist
