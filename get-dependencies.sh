@@ -20,10 +20,9 @@ pacman -Syu --noconfirm \
 	pulseaudio          \
 	pulseaudio-alsa     \
 	qt6-tools		    \
-	tree				\
 	wget                \
 	xorg-server-xvfb    \
-	zsync               \
+	zsync
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
