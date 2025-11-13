@@ -11,6 +11,7 @@ pacman -Syu --noconfirm \
 	base-devel          \
 	cmake				\
 	curl                \
+	gcclibs				\
 	git                 \
 	innoextract			\
 	libx11              \
