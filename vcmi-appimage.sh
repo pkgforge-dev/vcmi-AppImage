@@ -14,14 +14,7 @@ export DESKTOP=/usr/share/applications/vcmiclient.desktop
 export ICON=/usr/share/icons/hicolor/scalable/apps/vcmiclient.svg
 
 # app is hardcoded in multiple places
-export PATH_MAPPING='
-	/usr/bin/vcmibuilder:${SHARUN_DIR}/bin/vcmibuilder
-	/usr/bin/vcmiclient:${SHARUN_DIR}/bin/vcmiclient
-	/usr/bin/vcmieditor:${SHARUN_DIR}/bin/vcmieditor
-	/usr/bin/vcmilauncher:${SHARUN_DIR}/bin/vcmilauncher
-	/usr/bin/vcmiserver:${SHARUN_DIR}/bin/vcmiserver
-	/usr/lib/vcmi:${SHARUN_DIR}/lib/vcmi
-'
+export PATH_MAPPING_HARDCODED='*vcmi*'
 
 #Download and run quick-sharun
 curl -o ./quick-sharun "$SHARUN"
