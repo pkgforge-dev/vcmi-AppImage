@@ -12,6 +12,7 @@ pacman -Syu --noconfirm \
 	cmake				\
 	curl                \
 	git                 \
+	innoextract			\
 	libx11              \
 	libxrandr           \
 	libxss              \
@@ -22,6 +23,8 @@ pacman -Syu --noconfirm \
 	qt6-tools		    \
 	wget                \
 	xorg-server-xvfb    \
+	unshield			\
+	unzip				\
 	zsync
 
 echo "Installing debloated packages..."
