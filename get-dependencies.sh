@@ -13,7 +13,7 @@ pacman -Syu --noconfirm \
 	curl                \
 	#gcc-libs			\
 	git                 \
-	innoextract			\
+	#innoextract		\
 	libx11              \
 	libxrandr           \
 	libxss              \
