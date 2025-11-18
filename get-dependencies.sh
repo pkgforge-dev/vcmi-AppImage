@@ -11,21 +11,17 @@ pacman -Syu --noconfirm \
 	base-devel          \
 	cmake				\
 	curl                \
-	#gcc-libs			\
-	#git                 \
-	#innoextract		\
+	git                 \
 	libx11              \
 	libxrandr           \
 	libxss              \
-	#minizip			\
+	minizip				\
 	ninja				\
 	pulseaudio          \
 	pulseaudio-alsa     \
 	qt6-tools		    \
 	wget                \
 	xorg-server-xvfb    \
-	#unshield			\
-	#unzip				\
 	zsync
 
 echo "Installing debloated packages..."
@@ -38,7 +34,6 @@ echo "Building vcmi..."
 echo "---------------------------------------------------------------"
 wget --retry-connrefused --tries=30 "$PACKAGE_BUILDER" -O ./make-aur-package.sh
 chmod +x ./make-aur-package.sh
-#./make-aur-package.sh fuzzylite
 ./make-aur-package.sh --chaotic-aur vcmi
 
 pacman -Q vcmi | awk '{print $2; exit}' > ~/version
