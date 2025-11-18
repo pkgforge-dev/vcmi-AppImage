@@ -12,7 +12,7 @@ pacman -Syu --noconfirm \
 	cmake				\
 	curl                \
 	#gcc-libs			\
-	git                 \
+	#git                 \
 	#innoextract		\
 	libx11              \
 	libxrandr           \
