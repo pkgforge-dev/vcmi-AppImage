@@ -3,7 +3,7 @@
 # vcmi-AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/vcmi-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/vcmi-AppImage/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/vcmi-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/vcmi-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/vcmi-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/vcmi-AppImage/releases/latest)
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/vcmi-AppImage)](https://github.com/pkgforge-dev/vcmi-AppImage/releases/latest)
 
 <p align="center">
